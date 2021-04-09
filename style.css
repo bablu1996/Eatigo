@@ -1,0 +1,479 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.maindiv{
+   
+}
+.topdiv{
+    margin-top: 3%;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    margin-top: 2%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    width: 40%;
+    padding-left: 10%;
+    font-family: 'Bubblegum Sans', cursive;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 1.8em;
+    letter-spacing: .1em;
+}
+.sections{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+    
+}
+.links{
+
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: .1em;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    
+    
+
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.452);
+    background-color: white;
+    color: blue;
+    font-family: 'Acme', sans-serif;
+    outline: none;  
+}
+.topbody{
+    
+    
+}
+.leftbody{
+    
+    height: 100%;
+    width: 50%;
+    padding-left: 10%;
+}
+.rightbody{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+.image{
+    height: 100%;
+    width: 100%;
+    margin-top: -10%;
+    background-image: url(./svgimages/drawkit-transport-scene-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 40%;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 4em;
+}
+
+.miniquote{
+    width: 80%;
+    height: 30%;
+    font-family: 'Acme', sans-serif;
+    justify-content: center;
+    padding-top: 3%;
+    word-spacing: .2em;
+    color: rgb(127, 129, 129);
+}
+
+.button1{
+    width: 80%;
+    height: 30%;
+     
+}
+.btn1{
+    height:30px;
+    width: 120px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 0px 0px 10px rgba(60, 182, 238, 0.795);
+    background-color: white;
+    color: blue; 
+    outline: none;
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+}
+.btn1:hover{
+    height: 35px;
+    width: 130px;
+    font-size: 1.2em;
+    animation: ease-in .2s;
+}
+
+.buttomdiv{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.burger{
+    height: 30%;
+    width: 10%;
+    background-image: url(./3567.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(15deg);
+    border-radius: 10px;
+    position: absolute;
+    left: 5%;
+}
+.text{
+    height:35% ;
+    width: 25%;
+    font-size: 2.1em;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 2%;
+    text-align: right;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.text2{
+    padding-right: 15%;
+}
+.cards{
+    width: 65%;
+    height: 60%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+
+
+}
+.findrest{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 0 10px #a59f9f7a;
+}
+.circleimage{
+    height: 70%;
+    width: 100%;
+    background-image: url(./svgimages/5.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.findtext{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+.findbtn{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bookrest{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 0 10px #a59f9f7a;
+}
+.circleimage1{
+    height: 70%;
+    width: 100%;
+    background-image: url(./svgimages/4.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.booktext{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+.bookbtn{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homedelivery{
+    height: 70%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 0 10px #a59f9f7a;
+}
+.circleimage2{
+    height: 70%;
+    width: 100%;
+    background-image: url(./svgimages/8.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.hometext{
+    height: 10%;
+    width: 100%;
+
+    text-align: center;
+}
+.homebtn{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn2{
+    height: 25px;
+    width: 80px;
+    background-color: white;
+    border-color: rgb(218, 198, 18);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(218, 198, 18);
+}
+.btn2:hover{
+    background-color: rgb(218, 198, 18) ;
+    color: white;
+}
+.quote1{
+    height:300px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+}
+.we{
+    height: 30%;
+    width: 1005;
+    
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 4em;
+    
+
+}
+.people{
+    height: 20%;
+    width: 100%;
+    
+    font-family: 'Acme', sans-serif;
+    
+
+}
+.btnwe{
+    height:20%;
+    width: 100%;
+    
+   
+    
+}
+.btn3{
+    height: 30px;
+    width: 120px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: blue;
+    box-shadow: 0px 0px 10px rgba(60, 182, 238, 0.795);
+    background-color: white;
+    color: blue; 
+    outline: none;
+    font-size: 1em;
+    font-family: 'Acme', sans-serif;
+}
+.btn3:hover{
+    height: 35px;
+    width: 130px;
+    font-size: 1.2em;
+    animation: ease-in .2s;
+}
+.leftquote{
+    width: 55%;
+    height: 100%;
+    padding-left: 10%;
+    
+}
+.rightpicture{
+    height: 70%;
+    width: 30%;
+    background-image: url(./svgimages/packet.svg);
+    background-repeat: no-repeat;
+}
+.fab{
+    height: 450px;
+    width: 100%;
+    
+    
+
+}
+.qut{
+    height: 30%;
+    max-width: 100%;
+    
+    font-size: 2.7em;
+    font-family: 'Bubblegum Sans', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slide{
+    height:70%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.slide1{
+    height:100%;
+    width: 20%;
+    box-shadow: 0 0 10px #a59f9f7a; 
+}
+.slide2{
+    height:100%;
+    width: 20%;
+    box-shadow: 0 0 10px #a59f9f7a; 
+    
+    
+}
+.slide3{
+    height:100%;
+    width: 20%;
+    box-shadow: 0 0 10px #a59f9f7a; 
+}
+.upslide{
+    height: 60%;
+    width: 100%;
+    padding-top: 15px;
+    background-image: url(./svgimages/1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.upslide1{
+    height: 60%;
+    width: 100%;
+    padding-top: 15px;
+    background-image: url(./svgimages/1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.upslide2{
+    height: 60%;
+    width: 100%;
+    padding-top: 15px;
+    background-image: url(./svgimages/1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.btnsdd1{
+    height: 25px;
+    width: 60px;
+    background-color: white;
+    border-color: rgb(218, 198, 18);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(218, 198, 18);
+ 
+}
+.btnsdd1:hover{
+    background-color: rgb(218, 198, 18) ;
+    color: white;
+}
+.btnsdd2{
+    height: 25px;
+    width: 60px;
+    background-color: white;
+    border-color: rgb(218, 198, 18);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(218, 198, 18);
+ 
+}
+.btnsdd2:hover{
+    background-color: rgb(218, 198, 18) ;
+    color: white;
+}
+.btnsdd3{
+    height: 25px;
+    width: 60px;
+    background-color: white;
+    border-color: rgb(218, 198, 18);
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Acme', sans-serif;
+    color: rgb(218, 198, 18);
+ 
+}
+.btnsdd3:hover{
+    background-color: rgb(218, 198, 18) ;
+    color: white;
+}
+
+.loginwa{
+    height: 80%;
+    width: 60%;
+    background-color: aquamarine;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    box-shadow: 0 0 10px #a59f9f7a; 
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
